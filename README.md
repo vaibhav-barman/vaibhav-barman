@@ -54,23 +54,18 @@ player = Vaibhav()
 ### 💻 Programming
 
 ![Python](https://img.shields.io/badge/Python-00FFE5?style=for-the-badge&logo=python&logoColor=black)
-
 ![SQL](https://img.shields.io/badge/SQL-00FFE5?style=for-the-badge&logo=mysql&logoColor=black)
 
 ### 📊 Data Analytics
 
 ![Pandas](https://img.shields.io/badge/Pandas-8A2BE2?style=for-the-badge&logo=pandas&logoColor=white)
-
 ![NumPy](https://img.shields.io/badge/NumPy-8A2BE2?style=for-the-badge&logo=numpy&logoColor=white)
-
-![Power BI](https://img.shields.io/badge/PowerBI-FFD700?style=for-the-badge&logo=powerbi&logoColor=black)
+![PowerBI](https://img.shields.io/badge/PowerBI-FFD700?style=for-the-badge&logo=powerbi&logoColor=black)
 
 ### ⚙️ Tools
 
 ![Git](https://img.shields.io/badge/Git-FF6B35?style=for-the-badge&logo=git&logoColor=white)
-
 ![Linux](https://img.shields.io/badge/Linux-FF6B35?style=for-the-badge&logo=linux&logoColor=white)
-
 ![VS Code](https://img.shields.io/badge/VSCode-00AEEF?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 <p align="center">
