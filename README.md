@@ -47,9 +47,7 @@ class Vaibhav:
 player = Vaibhav()
 ```
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216656965-8b1f2b89-4a9b-4dd5-9d53-f0f0a9dd4e61.gif">
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:00FFE5,50:8A2BE2,100:FF00FF&section=footer"/>
 
 ## ⚔️ MY TECH ARSENAL
 
