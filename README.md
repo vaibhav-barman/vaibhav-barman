@@ -2,7 +2,7 @@
 
 # ⚡ VAIBHAV.EXE INITIALIZED ⚡
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=32&duration=1500&pause=50&color=00FFE5&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=120&lines=VAIBHAV+BARMAN;DATA+ANALYST+IN+TRAINING;NEXT+EVOLUTION+%3E+AI+ENGINEER;CURRENT+QUEST+%3E+BUILDING+PROJECTS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=32&duration=1500&pause=50&color=00FFE5&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=120&lines=VAIBHAV+BARMAN;BUILDING+PROJECTS+DAILY;PYTHON+%7C+DATA+ANALYTICS;DATA+TODAY+%E2%80%A2+AI+TOMORROW)](https://git.io/typing-svg)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFE5,50:8A2BE2,100:FF00FF&height=250&section=header&text=DATA%20TODAY%20•%20AI%20TOMORROW&fontSize=50&fontColor=ffffff&animation=fadeIn"/>
 
