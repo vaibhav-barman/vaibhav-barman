@@ -1,189 +1,145 @@
 <div align="center">
 
-# DATA TODAY. AI TOMORROW.
+# ⚡ VAIBHAV.EXE INITIALIZED ⚡
 
-### Building one project at a time.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=32&duration=1500&pause=50&color=00FFE5&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=120&lines=VAIBHAV+BARMAN;DATA+ANALYST+IN+TRAINING;NEXT+EVOLUTION+%3E+AI+ENGINEER;CURRENT+QUEST+%3E+BUILDING+PROJECTS)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&pause=100&color=00FFB3&center=true&vCenter=true&width=1200&lines=INITIALIZING+VAIBHAV.EXE;DATA+TODAY;AI+TOMORROW;BUILDING+IN+PUBLIC;MISSION%3A+AI+ENGINEER)](https://git.io/typing-svg)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFE5,50:8A2BE2,100:FF00FF&height=250&section=header&text=DATA%20TODAY%20•%20AI%20TOMORROW&fontSize=50&fontColor=ffffff&animation=fadeIn"/>
 
 </div>
 
 ---
 
-# SYSTEM STATUS
+# 🎮 PLAYER STATUS
 
 ```text
-┌──────────────────────────────────────────────┐
-│ USER       : Vaibhav Barman                  │
-│ ROLE       : Data Analytics Learner          │
-│ STATUS     : Building Projects Daily         │
-│ LOCATION   : India                           │
-│ NEXT GOAL  : AI Engineer                     │
-│ UPTIME     : Learning Mode                   │
-└──────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════╗
+║                    PLAYER CARD                      ║
+╠══════════════════════════════════════════════════════╣
+║ NAME          : VAIBHAV BARMAN                      ║
+║ CLASS         : DATA MAGE                           ║
+║ LEVEL         : 05                                  ║
+║ XP            : ██████░░░░                          ║
+║ CURRENT QUEST : DATA ANALYTICS                      ║
+║ NEXT CLASS    : AI ENGINEER                         ║
+║ FINAL BOSS    : BUILDING AI PRODUCTS                ║
+╚══════════════════════════════════════════════════════╝
 ```
 
 ---
 
-# ABOUT_ME.py
+# 🧠 CHARACTER_CONFIG.py
 
 ```python
-class VaibhavBarman:
+class Vaibhav:
 
-    def __init__(self):
+    role = "Data Analytics Enthusiast"
 
-        self.role = "Data Analytics Enthusiast"
+    current_focus = [
+        "Python",
+        "Pandas",
+        "SQL",
+        "Power BI"
+    ]
 
-        self.learning = [
-            "Python",
-            "SQL",
-            "Power BI",
-            "Statistics",
-            "Machine Learning",
-            "AI Engineering"
-        ]
+    active_quest = "Data Analytics"
 
-        self.current_focus = [
-            "Data Cleaning",
-            "Exploratory Data Analysis",
-            "Data Visualization",
-            "Portfolio Projects"
-        ]
+    next_evolution = "AI Engineer"
 
-        self.goal = "Build AI Products"
+    final_form = "AI Product Builder"
 
-        self.status = "Learning In Public"
+    motto = "Data Today. AI Tomorrow."
 
-me = VaibhavBarman()
-
-print("Ready to build.")
+player = Vaibhav()
 ```
 
 ---
 
-# CURRENT MISSION
+# ⚔️ QUEST LOG
 
 ```text
-[✓] Customer Personality Analysis
-[ ] Netflix Data Analysis
-[ ] Sales Dashboard Project
-[ ] SQL Portfolio Project
+[✓] First GitHub Repository
+[✓] First Data Cleaning Project
+[✓] First Internship Task
+[✓] First Historical Git Commit 😈
+
+[ ] Netflix Analytics
+[ ] SQL Portfolio
 [ ] Power BI Dashboard
-[ ] Machine Learning Project
-[ ] AI Project
+[ ] Machine Learning
+[ ] AI Engineering
+[ ] AI Products
 ```
 
 ---
 
-# SKILL PROGRESSION
+# 🌌 SKILL TREE
 
 ```text
-Python              ███████░░░ 70%
-SQL                 ███░░░░░░░ 30%
-Power BI            ██░░░░░░░░░ 20%
-Machine Learning    █░░░░░░░░░░ 10%
-AI Engineering      █░░░░░░░░░░ 05%
+PYTHON              ████████░░ 80%
+
+PANDAS              ██████░░░░ 60%
+
+SQL                 ███░░░░░░░ 35%
+
+POWER BI            ██░░░░░░░░ 20%
+
+MACHINE LEARNING    █░░░░░░░░░ 10%
+
+AI ENGINEERING      █░░░░░░░░░ 05%
 ```
 
 ---
 
-# TECH STACK
+# 🛠 INVENTORY
 
-### Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### Data Analytics
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white)
-
-### Databases
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00FFE5)
+![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=00FFE5)
+![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=00FFE5)
+![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=00FFE5)
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=00FFE5)
+![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=00FFE5)
+![VS Code](https://img.shields.io/badge/VSCode-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=00FFE5)
 
 ---
 
-# PROJECTS
+# 📊 ANALYTICS DASHBOARD
 
-### Customer Personality Analysis
-
-- Data Cleaning
-- Missing Value Analysis
-- Duplicate Detection
-- Data Type Conversion
-- Data Preprocessing
-
-### Upcoming Portfolio Projects
-
-- Netflix Dataset Analysis
-- Sales Data Dashboard
-- SQL Analytics Project
-- Power BI Dashboard
-- Machine Learning Portfolio
-
----
-
-# GITHUB ANALYTICS
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhav-barman&show_icons=true&theme=tokyonight&hide_border=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=vaibhav-barman&show_icons=true&theme=tokyonight&hide_border=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav-barman&layout=compact&theme=tokyonight&hide_border=true)
 
----
-
-# CONTRIBUTION STREAK
-
-![GitHub Streak](https://streak-stats.demolab.com?user=vaibhav-barman&theme=tokyonight&hide_border=true)
+![Streak](https://streak-stats.demolab.com?user=vaibhav-barman&theme=tokyonight&hide_border=true)
 
 ---
 
-# QUOTE OF THE DAY
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
----
-
-# 2026 ROADMAP
+# 🌍 MAIN STORYLINE
 
 ```text
-Data Analytics Internship
-            │
-            ▼
-Python + SQL
-            │
-            ▼
-Power BI
-            │
-            ▼
-Machine Learning
-            │
-            ▼
-AI Engineering
-            │
-            ▼
-AI Products
+DATA ANALYTICS
+      │
+      ▼
+SQL + PYTHON
+      │
+      ▼
+POWER BI
+      │
+      ▼
+MACHINE LEARNING
+      │
+      ▼
+AI ENGINEERING
+      │
+      ▼
+AI PRODUCTS
 ```
-
----
-
-# CONNECT
-
-- LinkedIn → https://www.linkedin.com/in/vaibhavbarman
-- GitHub → https://github.com/vaibhav-barman
 
 ---
 
 <div align="center">
 
-### Learning. Building. Improving.
+## ⚡ DATA TODAY • AI TOMORROW ⚡
+
+*"Grinding XP. Shipping Projects. Building the Future."*
 
 </div>
