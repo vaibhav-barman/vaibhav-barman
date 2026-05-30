@@ -74,6 +74,7 @@ player = Vaibhav()
 
 ```text
 ✓ Customer Personality Analysis
+✓ Netflix Data Cleaning
 
 Completed:
 • Missing Value Analysis
@@ -90,7 +91,7 @@ Completed:
 ```text
 ✓ Customer Personality Analysis
 
-⏳ Netflix Data Cleaning
+✓ Netflix Data Cleaning
 
 ⏳ Sales Analytics
 
