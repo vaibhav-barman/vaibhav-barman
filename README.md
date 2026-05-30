@@ -93,11 +93,11 @@ Completed:
 
 ✓ Netflix Data Cleaning
 
-⏳ Sales Analytics
+🚧 Sales Analytics (In Progress)
 
-⏳ Mall Customer Analysis
+📌 Mall Customer Analysis (Planned)
 
-⏳ Medical Appointment Analysis
+📌 Medical Appointment Analysis (Planned)
 ```
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
