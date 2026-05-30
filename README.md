@@ -4,9 +4,7 @@
 
 ### Building one project at a time.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=300&color=00D9FF&center=true&vCenter=true&width=900&lines=Vaibhav+Barman;Python+Developer;Data+Analytics+Enthusiast;Future+AI+Engineer;Learning+In+Public;Building+Projects+Daily)](https://git.io/typing-svg)
-
-![](https://komarev.com/ghpvc/?username=vaibhav-barman&style=for-the-badge&color=blueviolet)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&pause=100&color=00FFB3&center=true&vCenter=true&width=1200&lines=INITIALIZING+VAIBHAV.EXE;DATA+TODAY;AI+TOMORROW;BUILDING+IN+PUBLIC;MISSION%3A+AI+ENGINEER)](https://git.io/typing-svg)
 
 </div>
 
@@ -179,7 +177,7 @@ AI Products
 
 # CONNECT
 
-- LinkedIn → Add your LinkedIn URL
+- LinkedIn → https://www.linkedin.com/in/vaibhavbarman
 - GitHub → https://github.com/vaibhav-barman
 
 ---
