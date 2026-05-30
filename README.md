@@ -15,105 +15,119 @@
 ## 🎮 PLAYER CARD
 
 ```text
-NAME      : VAIBHAV BARMAN
-CLASS     : DATA MAGE
-LEVEL     : 05
-
-CURRENT QUEST:
-ELEVATE LABS DATA ANALYTICS INTERNSHIP
-
-MISSION:
-BUILD PROJECTS → LEARN AI → CREATE PRODUCTS
+╔════════════════════════════════════╗
+║            PLAYER DATA             ║
+╠════════════════════════════════════╣
+║ NAME      : VAIBHAV BARMAN         ║
+║ CLASS     : DATA MAGE              ║
+║ LEVEL     : STUDENT                ║
+║ REGION    : INDIA                  ║
+║ STATUS    : GRINDING XP            ║
+╚════════════════════════════════════╝
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFE5,100:8A2BE2&height=2&section=header"/>
+```python
+class Vaibhav:
 
-## 🚀 CURRENT MISSION
+    role = "Data Analytics Enthusiast"
 
-```text
-✓ Customer Personality Analysis
+    current_focus = [
+        "Python",
+        "Pandas",
+        "SQL",
+        "Power BI"
+    ]
 
-⏳ Netflix Data Cleaning
-⏳ Sales Analytics
-⏳ Mall Customer Analysis
-⏳ Medical Appointment Analysis
+    current_quest = "Data Analytics Internship"
+
+    long_term_goal = "AI Product Builder"
+
+    motto = "Data Today. AI Tomorrow."
+
+player = Vaibhav()
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8A2BE2,100:FF00FF&height=2&section=header"/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/74038190/216656965-8b1f2b89-4a9b-4dd5-9d53-f0f0a9dd4e61.gif">
+</p>
 
 ## ⚔️ MY TECH ARSENAL
 
 ### 💻 Programming
 
 ![Python](https://img.shields.io/badge/Python-00FFE5?style=for-the-badge&logo=python&logoColor=black)
+
 ![SQL](https://img.shields.io/badge/SQL-00FFE5?style=for-the-badge&logo=mysql&logoColor=black)
 
 ### 📊 Data Analytics
 
 ![Pandas](https://img.shields.io/badge/Pandas-8A2BE2?style=for-the-badge&logo=pandas&logoColor=white)
+
 ![NumPy](https://img.shields.io/badge/NumPy-8A2BE2?style=for-the-badge&logo=numpy&logoColor=white)
+
 ![Power BI](https://img.shields.io/badge/PowerBI-FFD700?style=for-the-badge&logo=powerbi&logoColor=black)
 
 ### ⚙️ Tools
 
 ![Git](https://img.shields.io/badge/Git-FF6B35?style=for-the-badge&logo=git&logoColor=white)
+
 ![Linux](https://img.shields.io/badge/Linux-FF6B35?style=for-the-badge&logo=linux&logoColor=white)
+
 ![VS Code](https://img.shields.io/badge/VSCode-00AEEF?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFE5,100:FF00FF&height=2&section=header"/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/74038190/216656965-8b1f2b89-4a9b-4dd5-9d53-f0f0a9dd4e61.gif">
+</p>
 
-## 🏆 GITHUB TROPHIES
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=vaibhav-barman&theme=tokyonight&no-frame=true&margin-w=15&row=1)](https://github.com/ryo-ma/github-profile-trophy)
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8A2BE2,100:00FFE5&height=2&section=header"/>
-
-## 📊 GITHUB STATS
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=vaibhav-barman&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav-barman&layout=compact&theme=tokyonight&hide_border=true"/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00FF,100:00FFE5&height=2&section=header"/>
-
-## 🌍 ROADMAP
+## 🏆 LATEST ACHIEVEMENT
 
 ```text
-DATA ANALYTICS
-      │
-      ▼
-SQL + PYTHON
-      │
-      ▼
-MACHINE LEARNING
-      │
-      ▼
-AI ENGINEERING
-      │
-      ▼
-AI PRODUCTS
+✓ Customer Personality Analysis
+
+Completed:
+• Missing Value Analysis
+• Duplicate Detection
+• Data Type Conversion
+• Dataset Cleaning
+• GitHub Project Publishing
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFE5,100:8A2BE2&height=2&section=header"/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/74038190/216656965-8b1f2b89-4a9b-4dd5-9d53-f0f0a9dd4e61.gif">
+</p>
 
 ## 📂 FEATURED PROJECTS
 
-🔹 Customer Personality Analysis
+```text
+✓ Customer Personality Analysis
 
-🔹 Netflix Data Cleaning
+⏳ Netflix Data Cleaning
 
-🔹 Sales Analytics
+⏳ Sales Analytics
 
-🔹 Mall Customer Analysis
+⏳ Mall Customer Analysis
 
-🔹 Medical Appointment Analysis
+⏳ Medical Appointment Analysis
+```
 
----
+<p align="center">
+<img src="https://user-images.githubusercontent.com/74038190/216656965-8b1f2b89-4a9b-4dd5-9d53-f0f0a9dd4e61.gif">
+</p>
 
-<div align="center">
+## 🌐 CONNECT WITH ME
+
+<a href="https://github.com/vaibhav-barman">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<p align="center">
 
 ### ⚡ DATA TODAY • AI TOMORROW ⚡
 
-*Grinding XP. Shipping Projects. Building The Future.*
+*Grinding XP • Shipping Projects • Building The Future*
 
-</div>
+</p>
