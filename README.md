@@ -68,10 +68,6 @@ player = Vaibhav()
 ![Linux](https://img.shields.io/badge/Linux-FF6B35?style=for-the-badge&logo=linux&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VSCode-00AEEF?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216656965-8b1f2b89-4a9b-4dd5-9d53-f0f0a9dd4e61.gif">
-</p>
-
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
 ## 🏆 LATEST ACHIEVEMENT
@@ -86,10 +82,6 @@ Completed:
 • Dataset Cleaning
 • GitHub Project Publishing
 ```
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216656965-8b1f2b89-4a9b-4dd5-9d53-f0f0a9dd4e61.gif">
-</p>
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
@@ -106,10 +98,6 @@ Completed:
 
 ⏳ Medical Appointment Analysis
 ```
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216656965-8b1f2b89-4a9b-4dd5-9d53-f0f0a9dd4e61.gif">
-</p>
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
