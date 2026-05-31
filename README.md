@@ -14,6 +14,8 @@
 
 ---
 
+<div align="center">
+
 ```python
 class Vaibhav:
 
@@ -49,7 +51,7 @@ player = Vaibhav()
 
 ---
 
-# ⚔️ MY TECH ARSENAL
+<h1 align="center">⚔️ MY TECH ARSENAL</h1>
 
 <h3 align="center">💻 Programming</h3>
 
@@ -81,6 +83,8 @@ player = Vaibhav()
 
 ---
 
+<h1 align="center">📂 FEATURED PROJECTS</h1>
+
 # 📂 FEATURED PROJECTS
 
 ✓ Customer Personality Analysis (https://github.com/vaibhav-barman/customer-personality-data-cleaning)
@@ -95,7 +99,7 @@ player = Vaibhav()
 
 ---
 
-# 🌐 CONNECT WITH ME
+<h1 align="center">🌐 CONNECT WITH ME</h1>
 
 <p align="center">
 <a href="https://github.com/vaibhav-barman">
@@ -113,7 +117,10 @@ player = Vaibhav()
 
 ---
 
-## ⚡ DATA TODAY • AI TOMORROW ⚡
+<div align="center">
 
-Building data-driven projects and turning raw datasets into actionable insights.
+## ⚡ FROM RAW DATA TO REAL INSIGHTS ⚡
 
+*Building data-driven solutions one dataset at a time.*
+
+</div>
