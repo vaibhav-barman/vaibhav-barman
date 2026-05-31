@@ -71,20 +71,6 @@ player = Vaibhav()
 ![VSCode](https://img.shields.io/badge/VS_Code-29B6F6?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-29B6F6?style=for-the-badge\&logo=jupyter\&logoColor=white)
 
----
-
-# 🏆 LATEST ACHIEVEMENT
-
-✓ Customer Personality Analysis
-
-✓ Netflix Data Cleaning
-
-✓ Sales Data Cleaning
-
-✓ Medical Appointment Analysis
-
-✓ Mall Customer Segmentation
-
 ━━━━━━━━━━━━━━━━━━━━━━
 
 ---
