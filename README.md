@@ -75,12 +75,19 @@ player = Vaibhav()
 ```text
 ✓ Customer Personality Analysis
 ✓ Netflix Data Cleaning
+✓ Sales Data Cleaning
+✓ Medical Appointment Analysis
+✓ Mall Customer Segmentation
 
 Completed:
+
+• Data Cleaning
 • Missing Value Analysis
 • Duplicate Detection
-• Data Type Conversion
-• Dataset Cleaning
+• Data Validation
+• Data Transformation
+• Exploratory Data Analysis (EDA)
+• Data Visualization
 • GitHub Project Publishing
 ```
 
@@ -93,11 +100,11 @@ Completed:
 
 ✓ Netflix Data Cleaning
 
-🚧 Sales Analytics (In Progress)
+✓ Sales Data Cleaning
 
-📌 Mall Customer Analysis (Planned)
+✓ Medical Appointment Analysis
 
-📌 Medical Appointment Analysis (Planned)
+✓ Mall Customer Segmentation
 ```
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
