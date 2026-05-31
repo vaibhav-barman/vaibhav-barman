@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=30&pause=1200&color=00FFE5&center=true&vCenter=true&width=1000&lines=VAIBHAV+BARMAN;BUILDING+PROJECTS+DAILY;PYTHON+%7C+DATA+ANALYTICS;FROM+RAW+DATA+TO+REAL+INSIGHTS)](https://git.io/typing-svg)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFE5,50:8A2BE2,100:FF00FF&height=220&section=header&text=DATA%20TODAY%20•%20AI%20TOMORROW&fontSize=42&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFE5,50:8A2BE2,100:FF00FF&height=220&section=header&text=DATA%20ANALYTICS%20%7C%20BUSINESS%20INTELLIGENCE&fontSize=32&fontColor=ffffff&animation=fadeIn"/>
 
 ![](https://komarev.com/ghpvc/?username=vaibhav-barman&style=for-the-badge&color=blueviolet)
 
