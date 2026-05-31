@@ -12,10 +12,6 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
----
-
-<div align="center">
-
 ```python
 class Vaibhav:
 
@@ -49,7 +45,7 @@ class Vaibhav:
 player = Vaibhav()
 ```
 
----
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
 <h1 align="center">⚔️ MY TECH ARSENAL</h1>
 
@@ -79,9 +75,7 @@ player = Vaibhav()
 <img src="https://img.shields.io/badge/Jupyter-29B6F6?style=for-the-badge&logo=jupyter&logoColor=white"/>
 </p>
 
-━━━━━━━━━━━━━━━━━━━━━━
-
----
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
 <h1 align="center">📂 FEATURED PROJECTS</h1>
 
@@ -95,7 +89,7 @@ player = Vaibhav()
 
 ✓ Mall Customer Segmentation (https://github.com/vaibhav-barman/mall-customer-segmentation)
 
----
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
 <h1 align="center">🌐 CONNECT WITH ME</h1>
 
@@ -113,7 +107,7 @@ player = Vaibhav()
 </a>
 </p>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
 <div align="center">
 
