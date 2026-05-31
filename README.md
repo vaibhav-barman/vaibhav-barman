@@ -85,8 +85,6 @@ player = Vaibhav()
 
 <h1 align="center">📂 FEATURED PROJECTS</h1>
 
-# 📂 FEATURED PROJECTS
-
 ✓ Customer Personality Analysis (https://github.com/vaibhav-barman/customer-personality-data-cleaning)
 
 ✓ Netflix Data Cleaning (https://github.com/vaibhav-barman/netflix-data-cleaning)
