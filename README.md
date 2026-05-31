@@ -12,20 +12,7 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
-# 🎮 PLAYER CARD
-
-```text
-┌─────────────────────────────┐
-│       PLAYER DATA           │
-├─────────────────────────────┤
-│ NAME    : VAIBHAV BARMAN    │
-│ CLASS   : DATA ANALYST      │
-│ LEVEL   : BUILDING MODE     │
-│ REGION  : INDIA             │
-│ XP      : 5 PROJECTS        │
-│ STATUS  : ANALYZING DATA    │
-└─────────────────────────────┘
-```
+---
 
 ```python
 class Vaibhav:
@@ -99,14 +86,6 @@ player = Vaibhav()
 ✓ Mall Customer Segmentation
 
 ━━━━━━━━━━━━━━━━━━━━━━
-
-Projects Completed : 5
-
-Datasets Analyzed  : 5+
-
-Tools Used         : Python, Pandas, NumPy, Matplotlib
-
-Version            : Analytics Build v1.0
 
 ---
 
