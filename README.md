@@ -12,90 +12,82 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
-## 🎮 PLAYER CARD
+# 🎮 PLAYER CARD
 
 ```text
-╔════════════════════════════════════╗
-║            PLAYER DATA             ║
-╠════════════════════════════════════╣
-║ NAME      : VAIBHAV BARMAN         ║
-║ CLASS     : DATA MAGE              ║
-║ LEVEL     : STUDENT                ║
-║ REGION    : INDIA                  ║
-║ STATUS    : GRINDING XP            ║
-╚════════════════════════════════════╝
+┌─────────────────────────────┐
+│       PLAYER DATA           │
+├─────────────────────────────┤
+│ NAME    : VAIBHAV BARMAN    │
+│ CLASS   : DATA ANALYST      │
+│ LEVEL   : BUILDING MODE     │
+│ REGION  : INDIA             │
+│ XP      : 5 PROJECTS        │
+│ STATUS  : ANALYZING DATA    │
+└─────────────────────────────┘
 ```
 
 ```python
 class Vaibhav:
 
-    role = "Data Analytics Enthusiast"
+    role = "Aspiring Data Analyst"
 
-    current_focus = [
+    skills = [
         "Python",
-        "Pandas",
         "SQL",
-        "Power BI"
+        "Pandas",
+        "NumPy",
+        "Power BI",
+        "Git"
     ]
 
-    current_quest = "Data Analytics Internship"
+    completed_projects = 5
 
-    long_term_goal = "AI Product Builder"
+    current_focus = [
+        "SQL",
+        "Power BI",
+        "Data Visualization",
+        "Analytics"
+    ]
 
-    motto = "Data Today. AI Tomorrow."
+    mission = "Land Data Analytics Internship"
+
+    vision = "Build AI Products Powered By Data"
+
+    motto = "Data Today. Intelligence Tomorrow."
+
 
 player = Vaibhav()
 ```
 
-<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+---
 
-## ⚔️ MY TECH ARSENAL
+# ⚔️ MY TECH ARSENAL
 
 ### 💻 Programming
 
-![Python](https://img.shields.io/badge/Python-00FFE5?style=for-the-badge&logo=python&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-00FFE5?style=for-the-badge&logo=mysql&logoColor=black)
+![Python](https://img.shields.io/badge/Python-00F5D4?style=for-the-badge\&logo=python\&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-00F5D4?style=for-the-badge\&logo=mysql\&logoColor=black)
 
 ### 📊 Data Analytics
 
-![Pandas](https://img.shields.io/badge/Pandas-8A2BE2?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-8A2BE2?style=for-the-badge&logo=numpy&logoColor=white)
-![PowerBI](https://img.shields.io/badge/PowerBI-FFD700?style=for-the-badge&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-8A2BE2?style=for-the-badge\&logo=pandas\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-8A2BE2?style=for-the-badge\&logo=numpy\&logoColor=white)
+![PowerBI](https://img.shields.io/badge/PowerBI-FFD700?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-FFD700?style=for-the-badge)
 
 ### ⚙️ Tools
 
-![Git](https://img.shields.io/badge/Git-FF6B35?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FF6B35?style=for-the-badge&logo=linux&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-00AEEF?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-FF6B35?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-FF6B35?style=for-the-badge\&logo=github\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FF6B35?style=for-the-badge\&logo=linux\&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS_Code-29B6F6?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-29B6F6?style=for-the-badge\&logo=jupyter\&logoColor=white)
 
-<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+---
 
-## 🏆 LATEST ACHIEVEMENT
+# 🏆 LATEST ACHIEVEMENT
 
-```text
-✓ Customer Personality Analysis
-✓ Netflix Data Cleaning
-✓ Sales Data Cleaning
-✓ Medical Appointment Analysis
-✓ Mall Customer Segmentation
-
-Completed:
-
-• Data Cleaning
-• Missing Value Analysis
-• Duplicate Detection
-• Data Validation
-• Data Transformation
-• Exploratory Data Analysis (EDA)
-• Data Visualization
-• GitHub Project Publishing
-```
-
-<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
-
-## 📂 FEATURED PROJECTS
-
-```text
 ✓ Customer Personality Analysis
 
 ✓ Netflix Data Cleaning
@@ -105,24 +97,54 @@ Completed:
 ✓ Medical Appointment Analysis
 
 ✓ Mall Customer Segmentation
-```
 
-<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+━━━━━━━━━━━━━━━━━━━━━━
 
-## 🌐 CONNECT WITH ME
+Projects Completed : 5
 
-<a href="https://github.com/vaibhav-barman">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+Datasets Analyzed  : 5+
 
-<a href="https://www.linkedin.com">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+Tools Used         : Python, Pandas, NumPy, Matplotlib
 
-<p align="center">
+Version            : Analytics Build v1.0
 
-### ⚡ DATA TODAY • AI TOMORROW ⚡
+---
 
-*Grinding XP • Shipping Projects • Building The Future*
+# 📂 FEATURED PROJECTS
 
-</p>
+✓ Customer Personality Analysis
+
+✓ Netflix Data Cleaning
+
+✓ Sales Data Cleaning
+
+✓ Medical Appointment Analysis
+
+✓ Mall Customer Segmentation
+
+---
+
+# 📊 ANALYTICS STATS
+
+Projects Completed  : 5
+
+Repositories Built  : 5+
+
+Datasets Processed  : 120K+ Rows
+
+Current Focus       : SQL & Power BI
+
+Learning Track      : Data Analytics → Business Intelligence → AI
+
+---
+
+# 🌐 CONNECT WITH ME
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github)](https://github.com/vaibhav-barman)
+
+---
+
+## ⚡ DATA TODAY • AI TOMORROW ⚡
+
+Building data-driven projects and turning raw datasets into actionable insights.
+
