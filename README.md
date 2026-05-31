@@ -51,25 +51,31 @@ player = Vaibhav()
 
 # ⚔️ MY TECH ARSENAL
 
-### 💻 Programming
+<h3 align="center">💻 Programming</h3>
 
-![Python](https://img.shields.io/badge/Python-00F5D4?style=for-the-badge\&logo=python\&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-00F5D4?style=for-the-badge\&logo=mysql\&logoColor=black)
+<p align="center">
+<img src="https://img.shields.io/badge/Python-00F5D4?style=for-the-badge&logo=python&logoColor=black"/>
+<img src="https://img.shields.io/badge/SQL-00F5D4?style=for-the-badge&logo=mysql&logoColor=black"/>
+</p>
 
-### 📊 Data Analytics
+<h3 align="center">📊 Data Analytics</h3>
 
-![Pandas](https://img.shields.io/badge/Pandas-8A2BE2?style=for-the-badge\&logo=pandas\&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-8A2BE2?style=for-the-badge\&logo=numpy\&logoColor=white)
-![PowerBI](https://img.shields.io/badge/PowerBI-FFD700?style=for-the-badge\&logo=powerbi\&logoColor=black)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-FFD700?style=for-the-badge)
+<p align="center">
+<img src="https://img.shields.io/badge/Pandas-8A2BE2?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-8A2BE2?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/PowerBI-FFD700?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Matplotlib-FFD700?style=for-the-badge"/>
+</p>
 
-### ⚙️ Tools
+<h3 align="center">⚙️ Tools</h3>
 
-![Git](https://img.shields.io/badge/Git-FF6B35?style=for-the-badge\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-FF6B35?style=for-the-badge\&logo=github\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FF6B35?style=for-the-badge\&logo=linux\&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-29B6F6?style=for-the-badge\&logo=visualstudiocode\&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-29B6F6?style=for-the-badge\&logo=jupyter\&logoColor=white)
+<p align="center">
+<img src="https://img.shields.io/badge/Git-FF6B35?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-FF6B35?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FF6B35?style=for-the-badge&logo=linux&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS_Code-29B6F6?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-29B6F6?style=for-the-badge&logo=jupyter&logoColor=white"/>
+</p>
 
 ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -77,29 +83,15 @@ player = Vaibhav()
 
 # 📂 FEATURED PROJECTS
 
-✓ Customer Personality Analysis
+✓ Customer Personality Analysis (https://github.com/vaibhav-barman/customer-personality-data-cleaning)
 
-✓ Netflix Data Cleaning
+✓ Netflix Data Cleaning (https://github.com/vaibhav-barman/netflix-data-cleaning)
 
-✓ Sales Data Cleaning
+✓ Sales Data Cleaning (https://github.com/vaibhav-barman/sales-data-cleaning)
 
-✓ Medical Appointment Analysis
+✓ Medical Appointment Analysis (https://github.com/vaibhav-barman/medical-appointment-analysis)
 
-✓ Mall Customer Segmentation
-
----
-
-# 📊 ANALYTICS STATS
-
-Projects Completed  : 5
-
-Repositories Built  : 5+
-
-Datasets Processed  : 120K+ Rows
-
-Current Focus       : SQL & Power BI
-
-Learning Track      : Data Analytics → Business Intelligence → AI
+✓ Mall Customer Segmentation (https://github.com/vaibhav-barman/mall-customer-segmentation)
 
 ---
 
