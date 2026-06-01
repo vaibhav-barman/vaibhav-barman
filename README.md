@@ -79,7 +79,7 @@ player = Vaibhav()
 
 <h1 align="center">📂 FEATURED PROJECTS</h1>
 
-✓ Power BI Sales Performance Dashboard
+✓ Power BI Sales Performance Dashboard (https://github.com/vaibhav-barman/powerbi-sales-performance-dashboard)
 
 ✓ Customer Personality Analysis (https://github.com/vaibhav-barman/customer-personality-data-cleaning)
 
