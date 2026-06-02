@@ -24,8 +24,6 @@ class Vaibhav:
         "Git"
     ]
 
-    completed_projects = 7
-
     current_focus = [
         "SQL",
         "Power BI",
