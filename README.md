@@ -91,16 +91,6 @@ player = Vaibhav()
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
-# 📈 GITHUB STATS
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhav-barman&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav-barman&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
 # 📂 FEATURED PROJECTS
