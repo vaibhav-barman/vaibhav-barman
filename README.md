@@ -15,8 +15,6 @@
 ```python
 class Vaibhav:
 
-    role = "Aspiring Data Analyst"
-
     skills = [
         "Python",
         "SQL",
@@ -34,13 +32,6 @@ class Vaibhav:
         "Data Visualization",
         "Analytics"
     ]
-
-    mission = "Land Data Analytics Internship"
-
-    vision = "Build AI Products Powered By Data"
-
-    motto = "Data Today. Intelligence Tomorrow."
-
 
 player = Vaibhav()
 ```
