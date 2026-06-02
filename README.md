@@ -28,11 +28,11 @@ class Vaibhav:
     ]
 
     current_focus = [
-        "SQL",
-        "Power BI",
-        "Data Visualization",
-        "Analytics"
-    ]
+    "Machine Learning",
+    "Predictive Analytics",
+    "Power BI",
+    "Business Intelligence"
+]
 
 player = Vaibhav()
 ```
