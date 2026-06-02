@@ -26,7 +26,7 @@ class Vaibhav:
         "Git"
     ]
 
-    completed_projects = 5
+    completed_projects = 6
 
     current_focus = [
         "SQL",
