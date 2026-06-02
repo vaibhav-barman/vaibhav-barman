@@ -26,7 +26,7 @@ class Vaibhav:
         "Git"
     ]
 
-    completed_projects = 6
+    completed_projects = 7
 
     current_focus = [
         "SQL",
@@ -78,6 +78,8 @@ player = Vaibhav()
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
 <h1 align="center">📂 FEATURED PROJECTS</h1>
+
+✓ SQL Data Analysis Classic Models (https://github.com/vaibhav-barman/sql-data-analysis-classicmodels)
 
 ✓ Power BI Sales Performance Dashboard (https://github.com/vaibhav-barman/powerbi-sales-performance-dashboard)
 
