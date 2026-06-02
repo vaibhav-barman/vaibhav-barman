@@ -91,8 +91,6 @@ player = Vaibhav()
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
-<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
-
 # 📂 FEATURED PROJECTS
 
 ### 🚀 Machine Learning
