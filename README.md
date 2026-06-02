@@ -68,6 +68,8 @@ player = Vaibhav()
 
 <h1 align="center">📂 FEATURED PROJECTS</h1>
 
+✓ End-to-end Customer Churn Predictor Analysis (https://github.com/vaibhav-barman/customer-churn-prediction-analytics)
+
 ✓ SQL Data Analysis Classic Models (https://github.com/vaibhav-barman/sql-data-analysis-classicmodels)
 
 ✓ Power BI Sales Performance Dashboard (https://github.com/vaibhav-barman/powerbi-sales-performance-dashboard)
