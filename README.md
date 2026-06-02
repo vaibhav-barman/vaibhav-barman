@@ -20,6 +20,9 @@ class Vaibhav:
         "SQL",
         "Pandas",
         "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Scikit-learn",
         "Power BI",
         "Git"
     ]
