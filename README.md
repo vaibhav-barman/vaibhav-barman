@@ -39,34 +39,42 @@ player = Vaibhav()
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
-<h1 align="center">⚔️ MY TECH ARSENAL</h1>
+## ⚔️ MY TECH ARSENAL
 
-<h3 align="center">💻 Programming</h3>
+### 💻 Programming
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-00F5D4?style=for-the-badge&logo=python&logoColor=black"/>
 <img src="https://img.shields.io/badge/SQL-00F5D4?style=for-the-badge&logo=mysql&logoColor=black"/>
 </p>
 
-<h3 align="center">📊 Data Analytics</h3>
+### 📊 Data Analytics & Visualization
 
 <p align="center">
 <img src="https://img.shields.io/badge/Pandas-8A2BE2?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-8A2BE2?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/PowerBI-FFD700?style=for-the-badge&logo=powerbi&logoColor=black"/>
 <img src="https://img.shields.io/badge/Matplotlib-FFD700?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-FFD700?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Power_BI-FFD700?style=for-the-badge&logo=powerbi&logoColor=black"/>
 </p>
 
-<h3 align="center">⚙️ Tools</h3>
+### 🤖 Machine Learning
 
 <p align="center">
-<img src="https://img.shields.io/badge/Git-FF6B35?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-FF6B35?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FF6B35?style=for-the-badge&logo=linux&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS_Code-29B6F6?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-29B6F6?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-FF6B35?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Random_Forest-FF6B35?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Predictive_Analytics-FF6B35?style=for-the-badge"/>
 </p>
 
+### ⚙️ Tools
+
+<p align="center">
+<img src="https://img.shields.io/badge/Git-38BDF8?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-38BDF8?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-38BDF8?style=for-the-badge&logo=linux&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS_Code-38BDF8?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-38BDF8?style=for-the-badge&logo=jupyter&logoColor=white"/>
+</p>
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
 
 <h1 align="center">📂 FEATURED PROJECTS</h1>
