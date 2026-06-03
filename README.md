@@ -15,8 +15,6 @@
 ```python
 class Vaibhav:
 
-    education = "BITS Pilani - B.Sc Computer Science"
-
     skills = [
         "Python",
         "SQL",
