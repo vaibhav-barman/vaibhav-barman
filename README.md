@@ -41,7 +41,7 @@ class Vaibhav:
         "Elevate Labs Internship"
     ]
 
-    goal = "Transform data into actionable business insights"
+    goal = "Transform Data Into Actionable Business Insights"
 
 player = Vaibhav()
 ```
