@@ -17,7 +17,7 @@ class Vaibhav:
 
     skills = [
         "Python",
-        "Datq Structures",
+        "Data Structures",
         "Algorithms",
         "SQL",
         "Pandas",
