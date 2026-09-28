@@ -9,7 +9,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:2563EB,100:00E5FF&height=200&section=header&text=VAIBHAV%20BARMAN&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineering%20%C2%B7%20Generative%20AI%20%C2%B7%20Machine%20Learning&descSize=16&descAlignY=60" alt="Vaibhav Barman banner" width="100%"/>
 
 <a href="https://github.com/vaibhav-barman">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=1400&color=00E5FF&center=true&vCenter=true&width=700&lines=B.Sc.+Computer+Science+at+BITS+Pilani;Studying+AI+Engineering+and+Generative+AI;Building+with+Python%2C+LLMs%2C+RAG+and+ML" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=1400&color=00E5FF&center=true&vCenter=true&width=700&lines=B.S.+Computer+Science+at+BITS+Pilani;Studying+AI+Engineering+and+Generative+AI;Building+with+Python%2C+LLMs%2C+RAG+and+ML" alt="Typing intro"/>
 </a>
 
 <br/>
