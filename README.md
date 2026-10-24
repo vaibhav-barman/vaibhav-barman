@@ -31,7 +31,6 @@ class Vaibhav:
     studying = "B.S. Computer Science @ BITS Pilani"
     focus    = ["AI Engineering", "Generative AI", "LLM Agents"]
     building = ["Local multi-agent pipelines", "MCP servers", "RAG apps", "ML projects"]
-    learning = "Machine Learning Specialization (Andrew Ng), in progress"
     approach = "Learn a concept, build a project, document it"
 ```
 
@@ -135,12 +134,9 @@ class Vaibhav:
 | **Local and private LLMs** | Ollama-backed apps (`promptroute`, `youtube-video-summarizer`, `localforge-ai`) |
 | **MCP and tooling** | News search MCP server for AI assistants (`gnews-mcp-server`) |
 | **LLM apps / RAG** | Semantic-search RAG chatbot with Gemini (`odyssey-rag`), Gemini summarizer (`gemini-website-summarizer`), AI study notes (`coursenotes-ai`) |
-| **Machine learning** | Linear regression, Random Forest classification, train/test splits, MAE/MSE/R², precision/recall/F1, VIF |
-| **Data analysis** | Cleaning, EDA, feature engineering, SQL queries, Power BI dashboards |
 
 **🌱 Currently learning**
 
-![ML Specialization](https://img.shields.io/badge/Machine_Learning_Specialization-IN_PROGRESS-00E5FF?style=for-the-badge&labelColor=0D1117)
 ![GenAI](https://img.shields.io/badge/Generative_AI-LEARNING-7C3AED?style=for-the-badge&labelColor=0D1117)
 ![AI Eng](https://img.shields.io/badge/AI_Engineering-LEARNING-2563EB?style=for-the-badge&labelColor=0D1117)
 
@@ -155,15 +151,12 @@ class Vaibhav:
 | **03** | Classical ML | [house-price-prediction-streamlit](https://github.com/vaibhav-barman/house-price-prediction-streamlit), [customer-churn-prediction-analytics](https://github.com/vaibhav-barman/customer-churn-prediction-analytics) |
 | **04** | LLM apps and RAG | [odyssey-rag](https://github.com/vaibhav-barman/odyssey-rag), [coursenotes-ai](https://github.com/vaibhav-barman/coursenotes-ai), [gemini-website-summarizer](https://github.com/vaibhav-barman/gemini-website-summarizer) |
 | **05** | Local LLMs, agents and MCP | [localforge-ai](https://github.com/vaibhav-barman/localforge-ai), [promptroute](https://github.com/vaibhav-barman/promptroute), [gnews-mcp-server](https://github.com/vaibhav-barman/gnews-mcp-server), [react-agent-from-scratch](https://github.com/vaibhav-barman/react-agent-from-scratch) |
-| **▶ NOW** | **[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)** by Andrew Ng (DeepLearning.AI × Stanford Online) | 🟡 **In progress** |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,50:2563EB,100:00E5FF&height=3" width="100%" alt=""/>
 
 ## `> education_&_credentials`
 
 🎓 **B.S. Computer Science**, BITS Pilani, pursuing AI Engineering and Generative AI
-
-🟡 **Machine Learning Specialization**, Andrew Ng (DeepLearning.AI and Stanford Online), *in progress, no certificate yet*
 
 📋 **Practical experience and simulations** *(as listed on my previous profile; see TODO note)*
 - AI/ML Internship, Elevate Labs (In Progress) · coursework in [elevate-labs-ai-ml](https://github.com/vaibhav-barman/elevate-labs-ai-ml)
