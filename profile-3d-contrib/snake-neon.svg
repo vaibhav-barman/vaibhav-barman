@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90" role="img" aria-label="contribution snake · first run pending">
+<rect x=".5" y=".5" width="1199" height="89" rx="18" fill="#060a13" stroke="#1e293b"/>
+<circle cx="392" cy="44.0" r="5" fill="#22d3ee"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="600" y="50.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#64748b" letter-spacing="1">contribution snake · first run pending</text>
+</svg>
