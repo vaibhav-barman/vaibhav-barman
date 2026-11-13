@@ -1,0 +1,52 @@
+name: Profile telemetry
+
+# Regenerates the two contribution graphics in the README:
+#   profile-3d-contrib/profile-neon.svg  (3D contribution skyline)
+#   profile-3d-contrib/snake-neon.svg    (contribution snake)
+
+on:
+  schedule:
+    - cron: "30 20 * * *" # daily, 02:00 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/telemetry.yml
+      - .github/profile-3d-settings.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-telemetry
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: 3D contribution skyline
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: ./.github/profile-3d-settings.json
+
+      - name: Contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile-3d-contrib/snake-neon.svg?palette=github-dark&color_snake=#f472b6&color_dots=#111a2e,#155e75,#0891b2,#22d3ee,#a78bfa
+
+      - name: Commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A profile-3d-contrib
+          if git commit -m "chore: refresh profile telemetry"; then
+            git push
+          fi

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-label="End of transmission">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060a13"/><stop offset="1" stop-color="#0b1022"/></linearGradient>
+<linearGradient id="cv" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="cvp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".55" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<linearGradient id="hz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee" stop-opacity=".9"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+<clipPath id="frame"><rect width="1200" height="170" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="1200" height="170" fill="url(#bg)"/>
+<linearGradient id="gf" x1="0" y1="58" x2="0" y2="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff" stop-opacity="0.17"/><stop offset="1" stop-color="#fff" stop-opacity="0.5"/></linearGradient><mask id="gm"><rect x="0" y="58" width="1200" height="112" fill="url(#gf)"/></mask>
+<g mask="url(#gm)" stroke="url(#cv)" stroke-width="1.1" fill="none">
+<path d="M600 58L-3034.4 214.8M600 58L-2869.2 214.8M600 58L-2704 214.8M600 58L-2538.8 214.8M600 58L-2373.6 214.8M600 58L-2208.4 214.8M600 58L-2043.2 214.8M600 58L-1878 214.8M600 58L-1712.8 214.8M600 58L-1547.6 214.8M600 58L-1382.4 214.8M600 58L-1217.2 214.8M600 58L-1052 214.8M600 58L-886.8 214.8M600 58L-721.6 214.8M600 58L-556.4 214.8M600 58L-391.2 214.8M600 58L-226 214.8M600 58L-60.8 214.8M600 58L104.4 214.8M600 58L269.6 214.8M600 58L434.8 214.8M600 58L600 214.8M600 58L765.2 214.8M600 58L930.4 214.8M600 58L1095.6 214.8M600 58L1260.8 214.8M600 58L1426 214.8M600 58L1591.2 214.8M600 58L1756.4 214.8M600 58L1921.6 214.8M600 58L2086.8 214.8M600 58L2252 214.8M600 58L2417.2 214.8M600 58L2582.4 214.8M600 58L2747.6 214.8M600 58L2912.8 214.8M600 58L3078 214.8M600 58L3243.2 214.8M600 58L3408.4 214.8M600 58L3573.6 214.8M600 58L3738.8 214.8M600 58L3904 214.8M600 58L4069.2 214.8M600 58L4234.4 214.8"/>
+<path d="M0 170H1200"><animate attributeName="d" values="M0 170H1200;M0 174.9H1200;M0 180.2H1200;M0 186H1200;M0 192.4H1200;M0 199.5H1200;M0 207.3H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 147.6H1200"><animate attributeName="d" values="M0 147.6H1200;M0 150.7H1200;M0 154H1200;M0 157.6H1200;M0 161.4H1200;M0 165.5H1200;M0 170H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 132.7H1200"><animate attributeName="d" values="M0 132.7H1200;M0 134.8H1200;M0 137.1H1200;M0 139.5H1200;M0 142H1200;M0 144.7H1200;M0 147.6H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 122H1200"><animate attributeName="d" values="M0 122H1200;M0 123.6H1200;M0 125.2H1200;M0 126.9H1200;M0 128.7H1200;M0 130.6H1200;M0 132.7H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 114H1200"><animate attributeName="d" values="M0 114H1200;M0 115.2H1200;M0 116.4H1200;M0 117.7H1200;M0 119.1H1200;M0 120.5H1200;M0 122H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 107.8H1200"><animate attributeName="d" values="M0 107.8H1200;M0 108.7H1200;M0 109.7H1200;M0 110.7H1200;M0 111.8H1200;M0 112.9H1200;M0 114H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 102.8H1200"><animate attributeName="d" values="M0 102.8H1200;M0 103.6H1200;M0 104.3H1200;M0 105.2H1200;M0 106H1200;M0 106.9H1200;M0 107.8H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 98.7H1200"><animate attributeName="d" values="M0 98.7H1200;M0 99.4H1200;M0 100H1200;M0 100.7H1200;M0 101.4H1200;M0 102.1H1200;M0 102.8H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 95.3H1200"><animate attributeName="d" values="M0 95.3H1200;M0 95.9H1200;M0 96.4H1200;M0 97H1200;M0 97.5H1200;M0 98.1H1200;M0 98.7H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 92.5H1200"><animate attributeName="d" values="M0 92.5H1200;M0 92.9H1200;M0 93.4H1200;M0 93.8H1200;M0 94.3H1200;M0 94.8H1200;M0 95.3H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 90H1200"><animate attributeName="d" values="M0 90H1200;M0 90.4H1200;M0 90.8H1200;M0 91.2H1200;M0 91.6H1200;M0 92H1200;M0 92.5H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 87.9H1200"><animate attributeName="d" values="M0 87.9H1200;M0 88.2H1200;M0 88.5H1200;M0 88.9H1200;M0 89.3H1200;M0 89.6H1200;M0 90H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 86H1200"><animate attributeName="d" values="M0 86H1200;M0 86.3H1200;M0 86.6H1200;M0 86.9H1200;M0 87.2H1200;M0 87.5H1200;M0 87.9H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 84.4H1200"><animate attributeName="d" values="M0 84.4H1200;M0 84.6H1200;M0 84.9H1200;M0 85.2H1200;M0 85.4H1200;M0 85.7H1200;M0 86H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 82.9H1200"><animate attributeName="d" values="M0 82.9H1200;M0 83.1H1200;M0 83.4H1200;M0 83.6H1200;M0 83.8H1200;M0 84.1H1200;M0 84.4H1200" dur="2.2s" repeatCount="indefinite"/></path>
+<path d="M0 81.6H1200"><animate attributeName="d" values="M0 81.6H1200;M0 81.8H1200;M0 82H1200;M0 82.2H1200;M0 82.4H1200;M0 82.7H1200;M0 82.9H1200" dur="2.2s" repeatCount="indefinite"/></path>
+</g>
+<rect x="0" y="57" width="1200" height="2" fill="url(#hz)"/>
+<text x="600" y="36" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#64748b" letter-spacing="2"><tspan fill="#22d3ee">&gt; session.close()</tspan>  // thanks for scrolling · vaibhav-barman.github.io<tspan fill="#22d3ee"> ▌<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+</g>
+<rect x=".5" y=".5" width="1199" height="169" rx="18" fill="none" stroke="#1e293b"/>
+</svg>

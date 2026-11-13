@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="compiling 3D contribution skyline · first run pending">
+<rect x=".5" y=".5" width="1199" height="139" rx="18" fill="#060a13" stroke="#1e293b"/>
+<circle cx="316" cy="69.0" r="5" fill="#22d3ee"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="600" y="75.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#64748b" letter-spacing="1">compiling 3D contribution skyline · first run pending</text>
+</svg>
