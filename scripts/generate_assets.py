@@ -890,8 +890,59 @@ def footer():
     write("footer.svg", svg)
 
 
+
+# ------------------------------------------------------------ whoami card
+def whoami_card():
+    W, H = 1200, 372
+    rows = [("name", "Vaibhav Barman", True),
+            ("role", "AI Engineer · agentic systems", False),
+            ("builds", "self-correcting RAG · multi-agent pipelines · MCP servers", False),
+            ("stack", "LangGraph · LangChain · FastMCP · Ollama · FastAPI · Postgres", False),
+            ("principle", "checks over model opinion", False),
+            ("studying", "B.Sc. Computer Science · BITS Pilani", False),
+            ("status", "open to remote AI engineering roles", False)]
+    out = [f'<text x="64" y="72" font-family="{MONO}" font-size="14" fill="{DIM}">$ <tspan fill="{TEXT}">whoami --verbose</tspan></text>',
+           f'<path d="M64 94H780" stroke="#fff" stroke-opacity=".12"/>']
+    y = 132
+    for i, (k, v, chrome) in enumerate(rows):
+        b = 0.35 + i * 0.22
+        fade = (f'<animate attributeName="opacity" values="0;1" begin="{b:.2f}s" dur=".45s" fill="freeze"/>'
+                f'<animateTransform attributeName="transform" type="translate" values="-10 0;0 0" begin="{b:.2f}s" dur=".45s" fill="freeze"/>')
+        val_fill = "url(#cht)" if chrome else TEXT
+        size = 22 if chrome else 15
+        dot = (f'<circle cx="214" cy="{y - 5}" r="4" fill="#fff"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle>'
+               if k == "status" else "")
+        vx = 230 if k == "status" else 200
+        out.append(f'<g opacity="0">{fade}<text x="64" y="{y}" font-family="{MONO}" font-size="13" letter-spacing="2" fill="{DIM}">{k.upper()}</text>'
+                   f'{dot}<text x="{vx}" y="{y + (2 if chrome else 0)}" font-family="{SANS if chrome else MONO}" font-weight="{300 if chrome else 400}" '
+                   f'font-size="{size}" fill="{val_fill}" letter-spacing="{1 if chrome else 0}">{esc(v)}</text></g>')
+        y += 32 if i else 38
+    # rotating chrome-wire icosahedron on the right
+    v, e = icosahedron()
+    F, dur, cx, cy = 60, 20, 1000, 186
+    dv, pv = [], []
+    for f in range(F + 1):
+        a = 2 * math.pi * f / F
+        pts = [rz(rx(ry(p, a), .35 + a), .15) for p in v]
+        pp = [proj(p, cx, cy, 96, 3.2) for p in pts]
+        dv.append("".join(f"M{n(pp[i][0])} {n(pp[i][1])}L{n(pp[j][0])} {n(pp[j][1])}" for i, j in e))
+        pv.append("".join(f"M{n(x)} {n(y)}h0" for x, y in pp))
+    out.append(f'<circle cx="{cx}" cy="{cy}" r="150" fill="url(#glow)" opacity=".10"/>'
+               f'<ellipse cx="{cx}" cy="{cy + 138}" rx="80" ry="6" fill="url(#shd)"/>'
+               f'<path d="{dv[0]}" fill="none" stroke="url(#wg)" stroke-width="1.2" stroke-linejoin="round"><animate attributeName="d" values="{";".join(dv)}" dur="{dur}s" repeatCount="indefinite"/></path>'
+               f'<path d="{pv[0]}" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none"><animate attributeName="d" values="{";".join(pv)}" dur="{dur}s" repeatCount="indefinite"/></path>'
+               f'<text x="{cx}" y="{H - 30}" text-anchor="middle" font-family="{MONO}" font-size="11" letter-spacing="4" fill="{DIM}">IDENTITY.LOAD() · OK</text>'
+               f'<rect x="840" y="40" width="1" height="{H - 80}" fill="url(#sep)"/>')
+    extra = ('<linearGradient id="wg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="#7a7a7a"/><stop offset="1" stop-color="#e5e5e5"/></linearGradient>'
+             '<linearGradient id="sep" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>')
+    svg = frame_open(W, H, "whoami: Vaibhav Barman, AI engineer building agentic systems, self-correcting RAG and MCP servers; open to remote AI engineering roles.", extra)
+    svg += "".join(out) + frame_close(W, H)
+    write("whoami.svg", svg)
+
+
 if __name__ == "__main__":
     hero()
+    whoami_card()
     fx_blog()
     fx_selfrag()
     fx_crag()

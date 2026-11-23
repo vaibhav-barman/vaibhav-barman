@@ -19,16 +19,7 @@ I build **LLM agents, RAG pipelines and MCP servers** in Python, on local models
 
 One rule runs through all of it: **a model shouldn't grade its own homework.** My agents draft, then something checkable (a relevance score, a grounding check, an exit code, a rule set) decides whether the draft ships or goes back for another pass, with a hard limit on retries.
 
-```python
-class Vaibhav:
-    role      = "AI Engineer"
-    builds    = ["agentic systems", "self-correcting RAG", "MCP servers", "local-LLM apps"]
-    graphs    = ["LangGraph", "LangChain", "FastMCP"]
-    serves    = ["FastAPI", "PostgreSQL", "Docker", "AWS"]
-    principle = "checks over model opinion"
-    studying  = "B.Sc. Computer Science @ BITS Pilani"
-    status    = "open to remote AI engineering roles"
-```
+<img src="./assets/v2/whoami.svg" width="100%" alt="whoami: name Vaibhav Barman; role AI Engineer, agentic systems; builds self-correcting RAG, multi-agent pipelines, MCP servers; stack LangGraph, LangChain, FastMCP, Ollama, FastAPI, Postgres; principle checks over model opinion; studying B.Sc. Computer Science at BITS Pilani; status open to remote AI engineering roles."/>
 
 <img src="./assets/v2/h-flagship.svg" width="100%" alt="02 flagship builds"/>
 
@@ -171,9 +162,9 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-mono.svg" width="100%" alt="My GitHub contributions rendered as a 3D isometric skyline"/>
+<img src="./profile-3d-contrib/profile-chrome.svg" width="100%" alt="My GitHub contributions rendered as a 3D isometric skyline"/>
 
-<img src="./profile-3d-contrib/snake-mono.svg" width="100%" alt="A snake eating my contribution graph"/>
+<img src="./profile-3d-contrib/snake-chrome.svg" width="100%" alt="A snake eating my contribution graph"/>
 
 </div>
 
