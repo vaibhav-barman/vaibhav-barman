@@ -1,11 +1,11 @@
 {
   "type": "normal",
   "fileName": "profile-neon.svg",
-  "backgroundColor": "#060a13",
-  "foregroundColor": "#22d3ee",
-  "strongColor": "#e2e8f0",
-  "weakColor": "#64748b",
-  "radarColor": "#a78bfa",
+  "backgroundColor": "#000000",
+  "foregroundColor": "#d4d4d4",
+  "strongColor": "#ffffff",
+  "weakColor": "#6b6b6b",
+  "radarColor": "#a3a3a3",
   "growingAnimation": true,
-  "contribColors": ["#111a2e", "#155e75", "#0891b2", "#22d3ee", "#a78bfa"]
+  "contribColors": ["#0f0f0f", "#3a3a3a", "#6e6e6e", "#b0b0b0", "#ffffff"]
 }

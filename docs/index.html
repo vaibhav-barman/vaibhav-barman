@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaibhav Barman — AI Engineer, agentic systems</title>
+<meta name="description" content="Vaibhav Barman builds LLM agents, RAG pipelines and MCP servers. Interactive 3D profile.">
+<meta name="theme-color" content="#000000">
+<style>
+  :root { --dim:#6b6b6b; --mid:#a3a3a3; --text:#ededed; --line:#262626;
+          --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+          --sans: "Helvetica Neue", Helvetica, Inter, "Segoe UI", Arial, sans-serif; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: #000; color: var(--text); overflow: hidden; font-family: var(--sans); }
+  canvas { display: block; }
+  #ui { position: fixed; inset: 0; pointer-events: none; }
+  #ui a, #ui button { pointer-events: auto; }
+  .corner { position: absolute; width: 18px; height: 18px; border-color: #3d3d3d; border-style: solid; }
+  .tl { top: 18px; left: 18px; border-width: 1px 0 0 1px; } .tr { top: 18px; right: 18px; border-width: 1px 1px 0 0; }
+  .bl { bottom: 18px; left: 18px; border-width: 0 0 1px 1px; } .br { bottom: 18px; right: 18px; border-width: 0 1px 1px 0; }
+  .meta { position: absolute; top: 42px; left: 48px; right: 48px; display: flex; justify-content: space-between;
+          font: 11px/1 var(--mono); letter-spacing: .28em; color: var(--dim); text-transform: uppercase; }
+  .meta b { color: var(--text); font-weight: 400; }
+  .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #fff; margin-right: 10px; animation: blink 2s infinite; }
+  @keyframes blink { 50% { opacity: .15; } }
+  .name { position: absolute; left: 48px; top: 16vh; }
+  .name h1 { font-weight: 200; font-size: clamp(44px, 8vw, 112px); letter-spacing: .14em; line-height: .95;
+             background: linear-gradient(100deg,#6f6f6f 0%,#fff 22%,#9c9c9c 45%,#f2f2f2 62%,#6a6a6a 80%,#d9d9d9 100%);
+             background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent;
+             animation: sheen 9s linear infinite; }
+  .name h1 strong { font-weight: 800; letter-spacing: .06em; display: block; }
+  @keyframes sheen { to { background-position: -200% 0; } }
+  .name p { margin-top: 26px; font: 13px/1.9 var(--mono); letter-spacing: .3em; color: var(--mid); text-transform: uppercase; }
+  .name .rule { width: min(460px, 70vw); height: 1px; background: #333; margin-top: 26px; position: relative; overflow: hidden; }
+  .name .rule::after { content: ""; position: absolute; top: 0; left: 0; width: 60px; height: 1px; background: #fff; animation: slide 6s ease-in-out infinite alternate; }
+  @keyframes slide { to { left: calc(100% - 60px); } }
+  .term { margin-top: 22px; font: 14px/1 var(--mono); color: var(--text); min-height: 16px; }
+  .term::before { content: "› "; color: var(--dim); }
+  .term span { display: inline-block; width: 8px; height: 15px; background: #fff; vertical-align: -2px; margin-left: 2px; animation: blink 1s steps(1) infinite; }
+  .projects { position: absolute; left: 48px; bottom: 54px; font: 12px/1 var(--mono); letter-spacing: .08em; }
+  .projects h2 { font: 11px/1 var(--mono); letter-spacing: .28em; color: var(--dim); margin-bottom: 16px; font-weight: 400; }
+  .projects a { display: flex; gap: 18px; align-items: baseline; color: var(--mid); text-decoration: none; padding: 7px 0; transition: color .2s, transform .2s; }
+  .projects a i { font-style: normal; color: var(--dim); width: 34px; }
+  .projects a em { font-style: normal; color: var(--dim); font-size: 11px; }
+  .projects a:hover, .projects a.on { color: #fff; transform: translateX(6px); }
+  .links { position: absolute; right: 48px; bottom: 54px; display: flex; gap: 10px; }
+  .links a { font: 11px/1 var(--mono); letter-spacing: .2em; text-transform: uppercase; color: var(--text); text-decoration: none;
+             border: 1px solid #333; padding: 11px 14px; border-radius: 3px; background: rgba(0,0,0,.5); transition: border-color .2s, background .2s; }
+  .links a:hover { border-color: #fff; background: #111; }
+  .label { font: 11px/1 var(--mono); letter-spacing: .12em; color: #fff; padding: 6px 8px; border: 1px solid rgba(255,255,255,.25);
+           background: rgba(0,0,0,.55); border-radius: 2px; white-space: nowrap; transform: translate(14px, -50%); pointer-events: auto; cursor: pointer;
+           transition: border-color .2s, opacity .3s; }
+  .label:hover, .label.on { border-color: #fff; }
+  .label:not(.main) { opacity: 0; } .label.on { opacity: 1 !important; } .label.back { opacity: .2; }
+  .label small { display: block; color: var(--dim); margin-top: 5px; font-size: 10px; letter-spacing: .08em; }
+  .hint { position: absolute; right: 48px; top: 50%; writing-mode: vertical-rl; font: 10px/1 var(--mono); letter-spacing: .4em; color: var(--dim); }
+  #fallback { display: none; position: fixed; inset: 0; align-items: center; justify-content: center; font: 13px var(--mono); color: var(--mid); }
+  @media (max-width: 760px) {
+    .projects { display: none; } .hint { display: none; }
+    .links { left: 48px; right: auto; flex-wrap: wrap; }
+    .meta span:last-child { display: none; }
+  }
+</style>
+<script type="importmap">
+{ "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="ui">
+  <div class="corner tl"></div><div class="corner tr"></div><div class="corner bl"></div><div class="corner br"></div>
+  <div class="meta"><span>VB — 2026 &nbsp;·&nbsp; Agentic systems</span><span><i class="dot"></i><b>Online · open to remote roles</b></span><span>IST +05:30 · BITS Pilani</span></div>
+  <div class="name">
+    <h1>VAIBHAV<strong>BARMAN</strong></h1>
+    <div class="rule"></div>
+    <p>AI engineer / agents / RAG / MCP</p>
+    <div class="term" id="term"></div>
+  </div>
+  <nav class="projects" id="projects"><h2>SELECTED BUILDS — HOVER OR CLICK A NODE</h2></nav>
+  <div class="links">
+    <a href="https://github.com/vaibhav-barman">GitHub</a>
+    <a href="https://www.linkedin.com/in/vaibhavbarman/">LinkedIn</a>
+    <a href="https://vaibhav-barman.github.io/resume.html">Resume</a>
+    <a href="mailto:vaibhavbarman2609@gmail.com">Email</a>
+  </div>
+  <div class="hint">DRAG TO ORBIT · SCROLL TO ZOOM</div>
+</div>
+<div id="fallback">WebGL is off in this browser. <a href="https://github.com/vaibhav-barman" style="color:#fff;margin-left:8px">github.com/vaibhav-barman →</a></div>
+
+<script type="module">
+import * as THREE from "three";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { CSS2DRenderer, CSS2DObject } from "three/addons/renderers/CSS2DRenderer.js";
+import { EffectComposer } from "three/addons/postprocessing/EffectComposer.js";
+import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
+import { UnrealBloomPass } from "three/addons/postprocessing/UnrealBloomPass.js";
+import { OutputPass } from "three/addons/postprocessing/OutputPass.js";
+
+const PROJECTS = [
+  { id: "P/01", name: "Blog Writing Agent", tag: "langgraph · send fan-out · gemini", url: "https://github.com/vaibhav-barman/blog-wriring-agent", ring: 0 },
+  { id: "P/02", name: "Self-RAG", tag: "reflective rag · groq · chroma", url: "https://github.com/vaibhav-barman/self-rag", ring: 0 },
+  { id: "P/03", name: "Corrective RAG", tag: "crag · pinecone · tavily", url: "https://github.com/vaibhav-barman/corrective-rag", ring: 0 },
+  { id: "P/04", name: "GitCommit AI", tag: "agentic cli · critic loop", url: "https://github.com/vaibhav-barman/gitcommit-ai", ring: 1 },
+  { id: "P/05", name: "LocalForge-AI", tag: "offline multi-agent team", url: "https://github.com/vaibhav-barman/localforge-ai", ring: 1 },
+  { id: "P/06", name: "Glossa", tag: "agentic rag · pgvector", url: "https://github.com/vaibhav-barman/agentic-rag", ring: 1 },
+  { id: "P/07", name: "Recovery", tag: "payment recovery agent", url: "https://github.com/vaibhav-barman/recovery-agent", ring: 1 },
+  { id: "P/08", name: "GNews MCP", tag: "fastmcp server", url: "https://github.com/vaibhav-barman/gnews-mcp-server", ring: 1 },
+];
+
+// typed stdout line
+const LINES = ["building agents that check their own work", "self-rag · corrective-rag · multi-agent writers",
+               "langgraph state machines with bounded retries", "deterministic checks > model opinion"];
+const term = document.getElementById("term");
+(async function type() {
+  for (let k = 0; ; k = (k + 1) % LINES.length) {
+    for (let i = 0; i <= LINES[k].length; i++) { term.innerHTML = LINES[k].slice(0, i) + "<span></span>"; await new Promise(r => setTimeout(r, 34)); }
+    await new Promise(r => setTimeout(r, 1900));
+  }
+})();
+
+let renderer;
+try { renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" }); }
+catch (e) { document.getElementById("fallback").style.display = "flex"; throw e; }
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.0;
+document.body.prepend(renderer.domElement);
+
+const labels = new CSS2DRenderer();
+labels.setSize(innerWidth, innerHeight);
+Object.assign(labels.domElement.style, { position: "fixed", inset: "0", pointerEvents: "none" });
+document.body.appendChild(labels.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x000000);
+scene.fog = new THREE.Fog(0x000000, 9, 26);
+const pmrem = new THREE.PMREMGenerator(renderer);
+// studio environment: black room with white softbox strips, the classic liquid-chrome look
+function studio() {
+  const env = new THREE.Scene();
+  env.add(new THREE.Mesh(new THREE.SphereGeometry(20, 32, 16), new THREE.MeshBasicMaterial({ color: 0x050505, side: THREE.BackSide })));
+  const white = new THREE.MeshBasicMaterial({ color: 0xffffff, side: THREE.DoubleSide });
+  const grey = new THREE.MeshBasicMaterial({ color: 0x777777, side: THREE.DoubleSide });
+  const box = (w, h, x, y, z, m = white) => { const q = new THREE.Mesh(new THREE.PlaneGeometry(w, h), m); q.position.set(x, y, z); q.lookAt(0, 0, 0); env.add(q); };
+  const sky = new THREE.MeshBasicMaterial({ color: 0x8a8a8a, side: THREE.DoubleSide });
+  const top = new THREE.Mesh(new THREE.CircleGeometry(14, 48), sky); top.position.y = 12; top.rotation.x = Math.PI / 2; env.add(top);
+  box(14, 2.2, 0, 9, 4);            // overhead strip
+  box(3, 14, -9, 1, 2);             // left vertical
+  box(1.2, 10, 9, 0, -3);           // right rim
+  box(30, 14, 0, -11, 0, grey);     // floor bounce
+  box(4, 4, 4, 5, 8);               // key
+  box(1, 6, -3, 2, -10);            // back kicker
+  return pmrem.fromScene(env, 0.02).texture;
+}
+scene.environment = studio();
+
+const camera = new THREE.PerspectiveCamera(38, innerWidth / innerHeight, 0.1, 100);
+camera.position.set(0, 1.6, 10.5);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true; controls.dampingFactor = 0.06;
+controls.enablePan = false; controls.minDistance = 6; controls.maxDistance = 16;
+controls.autoRotate = true; controls.autoRotateSpeed = 0.35;
+controls.maxPolarAngle = Math.PI * 0.62;
+
+// shift the whole stage right on wide screens so the name has room
+const stage = new THREE.Group();
+scene.add(stage);
+function layout() { stage.position.x = innerWidth > 900 ? 2.3 : 0; stage.position.y = innerWidth > 900 ? 0.2 : -0.6; }
+layout();
+
+// --- liquid chrome core
+const chrome = new THREE.MeshPhysicalMaterial({ color: 0xffffff, metalness: 1, roughness: 0.06, clearcoat: 1, clearcoatRoughness: 0.05, envMapIntensity: 1.0 });
+const coreGeo = new THREE.IcosahedronGeometry(1.35, 40);
+const base = coreGeo.attributes.position.array.slice();
+const core = new THREE.Mesh(coreGeo, chrome);
+stage.add(core);
+
+function noise(x, y, z, t) {
+  return Math.sin(x * 1.7 + t) * Math.cos(y * 1.9 - t * 0.8) * 0.5 +
+         Math.sin(z * 2.3 + t * 1.3) * Math.sin(x * 1.1 - t * 0.6) * 0.35 +
+         Math.sin((x + y + z) * 3.1 + t * 1.7) * 0.15;
+}
+function deform(t) {
+  const p = coreGeo.attributes.position.array;
+  for (let i = 0; i < p.length; i += 3) {
+    const x = base[i], y = base[i + 1], z = base[i + 2];
+    const k = 1 + 0.085 * noise(x, y, z, t);
+    p[i] = x * k; p[i + 1] = y * k; p[i + 2] = z * k;
+  }
+  coreGeo.attributes.position.needsUpdate = true;
+  coreGeo.computeVertexNormals();
+}
+
+// thin wire shell
+const shell = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.IcosahedronGeometry(1.95, 1)),
+  new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.07 }));
+stage.add(shell);
+
+// --- orbits + project nodes
+const rings = [
+  { r: 2.7, tilt: new THREE.Euler(0.32, 0, -0.22), speed: 0.16 },
+  { r: 3.75, tilt: new THREE.Euler(-0.18, 0, 0.3), speed: 0.09 },
+];
+const ringGroups = rings.map(cfg => {
+  const g = new THREE.Group(); g.rotation.copy(cfg.tilt); stage.add(g);
+  const pts = []; for (let i = 0; i <= 256; i++) { const a = i / 256 * Math.PI * 2; pts.push(new THREE.Vector3(Math.cos(a) * cfg.r, 0, Math.sin(a) * cfg.r)); }
+  const line = new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),
+    new THREE.LineDashedMaterial({ color: 0xffffff, transparent: true, opacity: 0.35, dashSize: 0.06, gapSize: 0.08 }));
+  line.computeLineDistances(); g.add(line);
+  return g;
+});
+
+const nodeGeo = new THREE.SphereGeometry(0.15, 48, 48);
+const nodes = [];
+const nav = document.getElementById("projects");
+PROJECTS.forEach((p, i) => {
+  const peers = PROJECTS.filter(q => q.ring === p.ring);
+  const idx = peers.indexOf(p);
+  const mesh = new THREE.Mesh(nodeGeo, chrome.clone());
+  mesh.userData = { p, ring: p.ring, phase: idx / peers.length * Math.PI * 2, scale: p.ring === 0 ? 1.25 : 0.9 };
+  ringGroups[p.ring].add(mesh);
+  const el = document.createElement("div");
+  el.className = "label" + (p.ring === 0 ? " main" : ""); el.innerHTML = `${p.id} &nbsp;${p.name}<small>${p.tag}</small>`;
+  el.onclick = () => open(p.url, "_blank");
+  const lab = new CSS2DObject(el); mesh.add(lab);
+  const a = document.createElement("a");
+  a.href = p.url; a.target = "_blank"; a.innerHTML = `<i>${p.id}</i>${p.name}<em>${p.tag}</em>`;
+  a.onmouseenter = () => focus(i); a.onmouseleave = () => focus(-1);
+  el.onmouseenter = () => focus(i); el.onmouseleave = () => focus(-1);
+  nav.appendChild(a);
+  nodes.push({ mesh, el, a });
+});
+let focused = -1;
+function focus(i) { focused = i; nodes.forEach((n, k) => { n.el.classList.toggle("on", k === i); n.a.classList.toggle("on", k === i); }); }
+
+// data packets: tiny glowing points running from core to nodes
+const packetGeo = new THREE.SphereGeometry(0.03, 12, 12);
+const packetMat = new THREE.MeshBasicMaterial({ color: 0xffffff });
+const packets = Array.from({ length: 14 }, (_, i) => {
+  const m = new THREE.Mesh(packetGeo, packetMat); stage.add(m);
+  return { m, target: i % nodes.length, t: Math.random() };
+});
+
+// particle dust
+const N = 1400, dust = new Float32Array(N * 3);
+for (let i = 0; i < N; i++) {
+  const r = 3.6 + Math.random() * 4.6, th = Math.random() * Math.PI * 2, ph = Math.acos(2 * Math.random() - 1);
+  dust[i * 3] = r * Math.sin(ph) * Math.cos(th); dust[i * 3 + 1] = r * Math.cos(ph) * 0.6; dust[i * 3 + 2] = r * Math.sin(ph) * Math.sin(th);
+}
+const dustGeo = new THREE.BufferGeometry(); dustGeo.setAttribute("position", new THREE.BufferAttribute(dust, 3));
+const dustPts = new THREE.Points(dustGeo, new THREE.PointsMaterial({ color: 0xffffff, size: 0.018, transparent: true, opacity: 0.5, sizeAttenuation: true }));
+scene.add(dustPts);
+
+// mirror-ish floor: a grid plus a soft reflection disc
+const grid = new THREE.GridHelper(60, 120, 0x2a2a2a, 0x141414);
+grid.position.y = -3.1; scene.add(grid);
+const glowCanvas = Object.assign(document.createElement("canvas"), { width: 256, height: 256 });
+const gctx = glowCanvas.getContext("2d"), grad = gctx.createRadialGradient(128, 128, 0, 128, 128, 128);
+grad.addColorStop(0, "rgba(255,255,255,.10)"); grad.addColorStop(1, "rgba(255,255,255,0)");
+gctx.fillStyle = grad; gctx.fillRect(0, 0, 256, 256);
+const discMat = new THREE.MeshBasicMaterial({ map: new THREE.CanvasTexture(glowCanvas), transparent: true, depthWrite: false });
+const disc = new THREE.Mesh(new THREE.PlaneGeometry(5, 5), discMat);
+disc.rotation.x = -Math.PI / 2; disc.position.y = -3.09; stage.add(disc);
+
+// post
+const composer = new EffectComposer(renderer);
+composer.addPass(new RenderPass(scene, camera));
+const bloom = new UnrealBloomPass(new THREE.Vector2(innerWidth, innerHeight), 0.32, 0.5, 0.9);
+composer.addPass(bloom);
+composer.addPass(new OutputPass());
+
+// hover picking
+const ray = new THREE.Raycaster(), mouse = new THREE.Vector2(9, 9);
+addEventListener("pointermove", e => { mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1); });
+renderer.domElement.addEventListener("click", () => { if (hovered >= 0) open(PROJECTS[hovered].url, "_blank"); });
+let hovered = -1;
+
+const clock = new THREE.Clock();
+const tmp = new THREE.Vector3(), corePos = new THREE.Vector3();
+function tick() {
+  const t = clock.getElapsedTime();
+  deform(t * 0.9);
+  core.rotation.y = t * 0.12;
+  shell.rotation.y = -t * 0.05; shell.rotation.x = t * 0.03;
+  nodes.forEach(({ mesh }, i) => {
+    const { ring, phase, scale } = mesh.userData;
+    const a = phase + t * rings[ring].speed;
+    mesh.position.set(Math.cos(a) * rings[ring].r, Math.sin(t * 0.8 + i) * 0.06, Math.sin(a) * rings[ring].r);
+    const s = scale * (i === focused || i === hovered ? 1.6 : 1);
+    mesh.scale.lerp(tmp.set(s, s, s), 0.12);
+  });
+  core.getWorldPosition(corePos);
+  const coreDist = camera.position.distanceTo(corePos);
+  nodes.forEach(({ mesh, el }) => { mesh.getWorldPosition(tmp); el.classList.toggle("back", camera.position.distanceTo(tmp) > coreDist + 0.4); });
+  packets.forEach(pk => {
+    pk.t += 0.006;
+    if (pk.t > 1) { pk.t = 0; pk.target = Math.floor(Math.random() * nodes.length); }
+    nodes[pk.target].mesh.getWorldPosition(tmp);
+    pk.m.position.lerpVectors(corePos, tmp, pk.t).sub(stage.position);
+    pk.m.scale.setScalar(Math.sin(pk.t * Math.PI));
+  });
+  dustPts.rotation.y = t * 0.01;
+
+  ray.setFromCamera(mouse, camera);
+  const hit = ray.intersectObjects(nodes.map(n => n.mesh))[0];
+  const h = hit ? nodes.findIndex(n => n.mesh === hit.object) : -1;
+  if (h !== hovered) { hovered = h; document.body.style.cursor = h >= 0 ? "pointer" : ""; focus(h); }
+
+  controls.update();
+  composer.render();
+  labels.render(scene, camera);
+  requestAnimationFrame(tick);
+}
+tick();
+
+addEventListener("resize", () => {
+  camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight); composer.setSize(innerWidth, innerHeight); labels.setSize(innerWidth, innerHeight);
+  layout();
+});
+</script>
+</body>
+</html>
