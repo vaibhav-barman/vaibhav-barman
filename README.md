@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://vaibhav-barman.github.io/vaibhav-barman/">
-  <img src="./assets/hero.svg" width="100%" alt="Vaibhav Barman. AI engineer building agentic systems. A liquid-chrome sphere with agents orbiting it."/>
+  <img src="./assets/v2/hero.svg" width="100%" alt="Vaibhav Barman. AI engineer building agentic systems. A liquid-chrome sphere with agents orbiting it."/>
 </a>
 
 <p>
@@ -13,7 +13,7 @@
 
 </div>
 
-<img src="./assets/h-whoami.svg" width="100%" alt="01 whoami"/>
+<img src="./assets/v2/h-whoami.svg" width="100%" alt="01 whoami"/>
 
 I build **LLM agents, RAG pipelines and MCP servers** in Python, on local models and frontier APIs alike.
 
@@ -30,28 +30,28 @@ class Vaibhav:
     status    = "open to remote AI engineering roles"
 ```
 
-<img src="./assets/h-flagship.svg" width="100%" alt="02 flagship builds"/>
+<img src="./assets/v2/h-flagship.svg" width="100%" alt="02 flagship builds"/>
 
-<a href="https://github.com/vaibhav-barman/blog-wriring-agent"><img src="./assets/fx-blog.svg" width="100%" alt="Blog Writing Agent. A LangGraph pipeline: router decides if research is needed, optional Tavily research, an orchestrator plans 4 to 6 sections, parallel workers write them via Send, a reducer orders, cites and saves Markdown."/></a>
+<a href="https://github.com/vaibhav-barman/blog-wriring-agent"><img src="./assets/v2/fx-blog.svg" width="100%" alt="Blog Writing Agent. A LangGraph pipeline: router decides if research is needed, optional Tavily research, an orchestrator plans 4 to 6 sections, parallel workers write them via Send, a reducer orders, cites and saves Markdown."/></a>
 
-<a href="https://github.com/vaibhav-barman/self-rag"><img src="./assets/fx-selfrag.svg" width="100%" alt="Self-RAG. Decides whether to retrieve, grades chunk relevance, checks the answer is supported and useful, revises unsupported answers and rewrites the query when the answer is not useful. Groq, Ollama embeddings, Chroma."/></a>
+<a href="https://github.com/vaibhav-barman/self-rag"><img src="./assets/v2/fx-selfrag.svg" width="100%" alt="Self-RAG. Decides whether to retrieve, grades chunk relevance, checks the answer is supported and useful, revises unsupported answers and rewrites the query when the answer is not useful. Groq, Ollama embeddings, Chroma."/></a>
 
-<a href="https://github.com/vaibhav-barman/corrective-rag"><img src="./assets/fx-crag.svg" width="100%" alt="Corrective RAG. Scores each retrieved chunk, routes CORRECT to refinement, AMBIGUOUS to books plus web, INCORRECT to a rewritten Tavily search, then generates a cited answer. Gemini, Ollama embeddings, Pinecone."/></a>
+<a href="https://github.com/vaibhav-barman/corrective-rag"><img src="./assets/v2/fx-crag.svg" width="100%" alt="Corrective RAG. Scores each retrieved chunk, routes CORRECT to refinement, AMBIGUOUS to books plus web, INCORRECT to a rewritten Tavily search, then generates a cited answer. Gemini, Ollama embeddings, Pinecone."/></a>
 
 <sub>The panels animate the real graphs: each white packet is one run taking a different route through the nodes.</sub>
 
-<img src="./assets/h-loop.svg" width="100%" alt="03 how I build"/>
+<img src="./assets/v2/h-loop.svg" width="100%" alt="03 how I build"/>
 
-<img src="./assets/agent-loop.svg" width="100%" alt="Agent loop: task, plan, act, observe, critic, ship. Rejected drafts go from critic back to plan."/>
+<img src="./assets/v2/agent-loop.svg" width="100%" alt="Agent loop: task, plan, act, observe, critic, ship. Rejected drafts go from critic back to plan."/>
 
 It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **retrieval evaluator** in Corrective RAG, the **critic loop** in GitCommit AI, the **execute-and-repair loop** in LocalForge-AI.
 
-<img src="./assets/h-builds.svg" width="100%" alt="04 more builds"/>
+<img src="./assets/v2/h-builds.svg" width="100%" alt="04 more builds"/>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/vaibhav-barman/gitcommit-ai"><img src="./assets/poly-commit.svg" width="84" align="left" alt=""/></a>
+      <a href="https://github.com/vaibhav-barman/gitcommit-ai"><img src="./assets/v2/poly-commit.svg" width="84" align="left" alt=""/></a>
       <h3><a href="https://github.com/vaibhav-barman/gitcommit-ai">GitCommit AI</a></h3>
       <sub><b>AGENTIC · CLI · <code>git ai-commit</code></b></sub>
       <br clear="left"/>
@@ -59,7 +59,7 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
       <code>LangGraph</code> <code>Python</code> <code>6 LLM providers</code> <code>Ollama</code> <code>eval harness</code>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/vaibhav-barman/localforge-ai"><img src="./assets/poly-forge.svg" width="84" align="left" alt=""/></a>
+      <a href="https://github.com/vaibhav-barman/localforge-ai"><img src="./assets/v2/poly-forge.svg" width="84" align="left" alt=""/></a>
       <h3><a href="https://github.com/vaibhav-barman/localforge-ai">LocalForge-AI</a></h3>
       <sub><b>MULTI-AGENT · 100% OFFLINE</b></sub>
       <br clear="left"/>
@@ -69,7 +69,7 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/vaibhav-barman/agentic-rag"><img src="./assets/poly-glossa.svg" width="84" align="left" alt=""/></a>
+      <a href="https://github.com/vaibhav-barman/agentic-rag"><img src="./assets/v2/poly-glossa.svg" width="84" align="left" alt=""/></a>
       <h3><a href="https://github.com/vaibhav-barman/agentic-rag">Glossa</a></h3>
       <sub><b>AGENTIC RAG · NO FRAMEWORK</b></sub>
       <br clear="left"/>
@@ -77,7 +77,7 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
       <code>FastAPI</code> <code>Postgres + pgvector</code> <code>Gemini</code> <code>RLS</code> <code>SSE</code>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/vaibhav-barman/recovery-agent"><img src="./assets/poly-recovery.svg" width="84" align="left" alt=""/></a>
+      <a href="https://github.com/vaibhav-barman/recovery-agent"><img src="./assets/v2/poly-recovery.svg" width="84" align="left" alt=""/></a>
       <h3><a href="https://github.com/vaibhav-barman/recovery-agent">Recovery</a></h3>
       <sub><b>AI AGENT · RAZORPAY AI BUILDATHON</b></sub>
       <br clear="left"/>
@@ -87,7 +87,7 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/vaibhav-barman/gnews-mcp-server"><img src="./assets/poly-mcp.svg" width="84" align="left" alt=""/></a>
+      <a href="https://github.com/vaibhav-barman/gnews-mcp-server"><img src="./assets/v2/poly-mcp.svg" width="84" align="left" alt=""/></a>
       <h3><a href="https://github.com/vaibhav-barman/gnews-mcp-server">GNews MCP Server</a></h3>
       <sub><b>MCP · AI TOOLING</b></sub>
       <br clear="left"/>
@@ -95,7 +95,7 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
       <code>MCP</code> <code>FastMCP</code> <code>Python</code> <code>uv</code>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/vaibhav-barman/odyssey-rag"><img src="./assets/poly-odyssey.svg" width="84" align="left" alt=""/></a>
+      <a href="https://github.com/vaibhav-barman/odyssey-rag"><img src="./assets/v2/poly-odyssey.svg" width="84" align="left" alt=""/></a>
       <h3><a href="https://github.com/vaibhav-barman/odyssey-rag">Odyssey RAG</a></h3>
       <sub><b>RAG · RETRIEVAL EVALUATION</b></sub>
       <br clear="left"/>
@@ -105,7 +105,7 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
   </tr>
 </table>
 
-<img src="./assets/h-lab.svg" width="100%" alt="05 lab notebook"/>
+<img src="./assets/v2/h-lab.svg" width="100%" alt="05 lab notebook"/>
 
 | Experiment | What it explores |
 | :-- | :-- |
@@ -119,7 +119,7 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
 | [**gemini-website-summarizer**](https://github.com/vaibhav-barman/gemini-website-summarizer) | Extracts a page's readable content and summarizes it to Markdown with Gemini. |
 | [**Spendly**](https://github.com/vaibhav-barman/spendly) | Expense tracker built end to end as an agentic coding workflow with Claude Code. |
 
-<img src="./assets/h-stack.svg" width="100%" alt="06 stack"/>
+<img src="./assets/v2/h-stack.svg" width="100%" alt="06 stack"/>
 
 <sub><b>AGENTS &amp; LLM ORCHESTRATION</b></sub><br/>
 ![LangGraph](https://img.shields.io/badge/LangGraph-0a0a0a?style=for-the-badge&logo=langgraph&logoColor=white)
@@ -167,17 +167,17 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
 
 <sub>Habits I build with: async APIs, authN / authZ, pagination, rate limiting (SlowAPI), migrations, structured output, bounded retries, typed code, tests.</sub>
 
-<img src="./assets/h-telemetry.svg" width="100%" alt="07 telemetry"/>
+<img src="./assets/v2/h-telemetry.svg" width="100%" alt="07 telemetry"/>
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-neon.svg" width="100%" alt="My GitHub contributions rendered as a 3D isometric skyline"/>
+<img src="./profile-3d-contrib/profile-mono.svg" width="100%" alt="My GitHub contributions rendered as a 3D isometric skyline"/>
 
-<img src="./profile-3d-contrib/snake-neon.svg" width="100%" alt="A snake eating my contribution graph"/>
+<img src="./profile-3d-contrib/snake-mono.svg" width="100%" alt="A snake eating my contribution graph"/>
 
 </div>
 
-<img src="./assets/h-creds.svg" width="100%" alt="08 training data"/>
+<img src="./assets/v2/h-creds.svg" width="100%" alt="08 training data"/>
 
 <table>
   <tr><td><sub><b>EDUCATION</b></sub></td><td>B.Sc. Computer Science, BITS Pilani</td></tr>
@@ -185,7 +185,7 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
   <tr><td><sub><b>CERTIFICATIONS</b></sub></td><td>AI Engineer Bootcamp 2026 · Complete MCP Developer Guide · Mastering Ollama · Docker &amp; Kubernetes Fundamentals (Scaler Academy)</td></tr>
 </table>
 
-<img src="./assets/h-connect.svg" width="100%" alt="09 open a channel"/>
+<img src="./assets/v2/h-connect.svg" width="100%" alt="09 open a channel"/>
 
 <div align="center">
 
@@ -198,6 +198,6 @@ It's the same loop each time: **ISSUP / ISUSE reflection** in Self-RAG, the **re
   <img src="https://komarev.com/ghpvc/?username=vaibhav-barman&style=for-the-badge&color=111111&label=VISITORS" alt="Profile views"/>
 </p>
 
-<img src="./assets/footer.svg" width="100%" alt="End of transmission"/>
+<img src="./assets/v2/footer.svg" width="100%" alt="End of transmission"/>
 
 </div>
