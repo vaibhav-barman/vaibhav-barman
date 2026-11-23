@@ -7,11 +7,11 @@ geometry (orthographic spheres, perspective floors, rotating solids) projected
 to 2D in Python and baked into SMIL keyframes. Each SVG is self-contained:
 no external fonts, images or scripts.
 
-    python scripts/generate_assets.py            # writes ./assets
+    python scripts/generate_assets.py            # writes ./assets/v2
 """
 import math, os, sys
 
-OUT = sys.argv[1] if len(sys.argv) > 1 else "assets"
+OUT = sys.argv[1] if len(sys.argv) > 1 else "assets/v2"
 os.makedirs(OUT, exist_ok=True)
 
 # ----------------------------------------------------------------- tokens
